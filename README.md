@@ -13,7 +13,7 @@ STEPS TO RUN
    java -jar nearbyplaces-0.0.1-SNAPSHOT-jar-with-dependencies.jar 
 
 4. This opens up a Swing UI having some default values for Latitude/Longitude/Radius. 
-(The values may be edited as needed) 
+(The values may be edited as needed)
 5. Click on the button "Search" to search for interesting places near this default 
 location. This displays Name, Vicinity and Types of several places in the proximity. 
 6. Edit the values for Latitude/Longitude and Radius as needed to query for new values, 
@@ -21,9 +21,12 @@ as many times as needed
 
 BUILDING THE APP LOCALLY
 
-1) The system should be connected to Internet. 
+1) The system should be connected to Internet.
+
 2) Install Maven Version 3 or later.
+
 3) Open a command prompt, and change to the directory nearbyplaces
+
 4) Run the command below
 
 nearbyplaces > mvn install
