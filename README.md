@@ -5,16 +5,14 @@ A Java Swing application which calls Google Places API using REST/GET client to 
 STEPS TO RUN 
 
 1. Download the source code and extract it to a folder named nearbyplaces.
-2. Install Java(Version 8 or 7 or 6)
-3. On the command prompt, run the two commands below
+2. Install Java(Version 8 or 7 or 6)3. On the command prompt, run the two commands below
 
    cd nearbyplaces/target 
    
    java -jar nearbyplaces-0.0.1-SNAPSHOT-jar-with-dependencies.jar 
 
 4. This opens up a Swing UI having some default values for Latitude/Longitude/Radius. 
-(The values may be edited as needed)
-5. Click on the button "Search" to search for interesting places near this default 
+(The values may be edited as needed)5. Click on the button "Search" to search for interesting places near this default 
 location. This displays Name, Vicinity and Types of several places in the proximity. 
 6. Edit the values for Latitude/Longitude and Radius as needed to query for new values, 
 as many times as needed
@@ -32,7 +30,7 @@ BUILDING THE APP LOCALLY
 nearbyplaces > mvn install
 
 5) Step 4 will download maven dependencies and produce the executable package
-nearbyplace/target/nearbyplaces-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+nearbyplaces/target/nearbyplaces-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 SOME FACTS ON DESIGN AND DEVELOPMENT 
 
