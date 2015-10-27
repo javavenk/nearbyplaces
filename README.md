@@ -9,6 +9,7 @@ STEPS TO RUN
 3. On the command prompt, run the two commands below
 
    cd nearbyplaces/target 
+   
    java -jar nearbyplaces-0.0.1-SNAPSHOT-jar-with-dependencies.jar 
 
 4. This opens up a Swing UI having some default values for Latitude/Longitude/Radius. 
